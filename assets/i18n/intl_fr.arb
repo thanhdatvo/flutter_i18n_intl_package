@@ -1,0 +1,16 @@
+{
+  "@@last_modified": "2018-09-24T14:38:58.383162",
+  "greetTo": "Je suis très heureux de faire votre connaissance, {name}!",
+  "@greetTo": {
+    "description": "The application title",
+    "type": "text",
+    "placeholders": {
+      "name": {}
+    }
+  },
+  "hello": "Bonjour!",
+  "@hello": {
+    "type": "text",
+    "placeholders": {}
+  }
+}
