@@ -13,7 +13,6 @@ class MyLocalizations {
     final String localeName = Intl.canonicalizedLocale(name);
 
     return initializeMessages(localeName).then((bool _) {
-      print('localeName' + localeName);
       Intl.defaultLocale = localeName;
       return new MyLocalizations();
     });
