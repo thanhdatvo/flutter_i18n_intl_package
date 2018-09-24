@@ -26,7 +26,6 @@ class _AppState extends State<App> {
         _locale = 'en';
       });
     }
-    MyLocalizations.load(Locale(_locale, ""));
   }
 
   @override
@@ -38,8 +37,6 @@ class _AppState extends State<App> {
           GlobalMaterialLocalizations.delegate,
           GlobalWidgetsLocalizations.delegate,
         ],
-        onGenerateTitle: (BuildContext context) =>
-            MyLocalizations.of(context).hello,
         supportedLocales: languages.map((language) => Locale(language, '')),
         home: AppBody(this.onChangeLanguage));
   }

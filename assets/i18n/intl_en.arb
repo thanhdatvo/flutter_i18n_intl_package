@@ -1,5 +1,10 @@
 {
   "@@last_modified": "2018-09-24T14:38:58.383162",
+  "hello": "Hello!",
+  "@hello": {
+    "type": "text",
+    "placeholders": {}
+  },
   "greetTo": "Nice to meet you, {name}!",
   "@greetTo": {
     "description": "The application title",
@@ -7,10 +12,5 @@
     "placeholders": {
       "name": {}
     }
-  },
-  "hello": "Hello!",
-  "@hello": {
-    "type": "text",
-    "placeholders": {}
   }
 }
